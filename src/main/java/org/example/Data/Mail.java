@@ -1,26 +1,16 @@
 package org.example.Data;
 
 public class Mail {
-    private Human to;
-    private Postman from;
+    private User to;
+    private User from;
 
     private String address;
     private String data;
 
-    public Mail() {
+    public Mail(User to, User from, String address, String data) {
         this.to = to;
         this.from = from;
         this.address = address;
         this.data = data;
-    }
-
-    public Mail(Human boris, Postman postman) {
-    }
-
-    public Mail generateNewMail() {
-
-        return new Mail(new Human("Boris", "Lenin 22"),
-                new Postman("Gsom", "Bjne", "addresssss", "asdgjnasdfgjnlmajnsdfgjkn"));
-    }
-
+    }// L from SOLID
 }

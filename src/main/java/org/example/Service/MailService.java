@@ -5,13 +5,7 @@ import org.example.Data.Mail;
 public class MailService implements MailInterface {
 
     @Override
-    public void sendMail() {
-
-    }
-
-    @Override
     public String sendMail(Mail data) {
-        //System.out.println("Message sent.");
         return "Message " + data + " sent.";
     }
 

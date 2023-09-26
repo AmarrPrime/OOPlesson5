@@ -2,7 +2,6 @@ package org.example.MVP;
 
 public class HumanMailView implements View {
 
-
     @Override
     public void ReturnMail() {
         System.out.println("Returned.");
@@ -12,7 +11,6 @@ public class HumanMailView implements View {
     public void GetMail() {
 
     }
-
     @Override
     public void GetMail(String data) {
         System.out.println("Recieved.");
