@@ -8,9 +8,10 @@ public class Controller {
 
     MailService mailService = new MailService();
     HumanMailView humanMailView = new HumanMailView();
+
     public void start(Mail sendMail) {
-    String qwe = mailService.sendMail(sendMail);
-    humanMailView.GetMail(qwe);
+        String qwe = mailService.sendMail(sendMail);
+        humanMailView.GetMail(qwe);
     }
 
     public void start(String s) {

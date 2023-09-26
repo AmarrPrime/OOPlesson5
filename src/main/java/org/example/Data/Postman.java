@@ -1,6 +1,6 @@
 package org.example.Data;
 
-public class Postman extends User{
+public class Postman extends User {
     private String occupation;
 
     public Postman(String gsom, String bjne, String addresssss, String asdgjnasdfgjnlmajnsdfgjkn) {

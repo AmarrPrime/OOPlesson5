@@ -8,5 +8,6 @@ public interface MailInterface {
     String sendMail(Mail data);
 
     public void recieveMail();
+
     public void returnMail();
 }

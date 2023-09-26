@@ -5,7 +5,7 @@ public class Mail {
     private Postman from;
 
     private String address;
-    private  String data;
+    private String data;
 
     public Mail() {
         this.to = to;
@@ -17,10 +17,10 @@ public class Mail {
     public Mail(Human boris, Postman postman) {
     }
 
-    public Mail generateNewMail(){
+    public Mail generateNewMail() {
 
-    return new Mail(new Human("Boris", "Lenin 22") ,
-        new Postman("Gsom", "Bjne","addresssss","asdgjnasdfgjnlmajnsdfgjkn"));
+        return new Mail(new Human("Boris", "Lenin 22"),
+                new Postman("Gsom", "Bjne", "addresssss", "asdgjnasdfgjnlmajnsdfgjkn"));
     }
 
 }

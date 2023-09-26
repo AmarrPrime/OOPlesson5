@@ -2,7 +2,7 @@ package org.example.Service;
 
 import org.example.Data.Mail;
 
-public class MailService implements MailInterface{
+public class MailService implements MailInterface {
 
     @Override
     public void sendMail() {
@@ -12,8 +12,8 @@ public class MailService implements MailInterface{
     @Override
     public String sendMail(Mail data) {
         //System.out.println("Message sent.");
-         return "Message " + data + " sent.";
-     }
+        return "Message " + data + " sent.";
+    }
 
     @Override
     public void recieveMail() {

@@ -1,6 +1,6 @@
 package org.example.MVP;
 
-public class HumanMailView implements View{
+public class HumanMailView implements View {
 
 
     @Override
